@@ -59,7 +59,7 @@ io.on("connection", (socket) => {
 global.io = io;
 
 const PORT = process.env.PORT || 5000;
-server.listen(PORT, () =>
+app.listen(PORT, () =>
   console.log(`🚀 Server running on port ${PORT}`)
 );
 
